@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "discord-boost-checker"
+version = "0.1.1"
+authors = [
+  { name = "mOon", email = "mohamed835misgxyd@gmail.com" }
+]
+description = "Internal utility package."
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+keywords = ["discord", "discord-api"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Communications :: Chat",
+]
+dependencies = [
+    "requests>=2.28.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/69xr/discord-boost-checker"
+"Bug Tracker" = "https://github.com/69xr/discord-boost-checker/issues"
+
+[project.scripts]
+discord-boost = "discord_boost_checker.cli:main"
