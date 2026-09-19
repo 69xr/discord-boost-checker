@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "discord-boost-checker"
-version = "0.2.0"
+version = "0.3.0"
 authors = [
   { name = "mOon", email = "mohamed835misgxyd@gmail.com" }
 ]
@@ -12,10 +12,11 @@ description = "Internal utility package."
 license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.8"
-keywords = ["discord", "discord-api"]
+keywords = ["discord", "discord-api", "async"]
 
 dependencies = [
-    "requests>=2.28.0"
+    "requests>=2.28.0",
+    "aiohttp>=3.8.0"
 ]
 
 [project.urls]
