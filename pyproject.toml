@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "discord-boost-checker"
-version = "0.1.1"
+version = "0.2.0"
 authors = [
   { name = "mOon", email = "mohamed835misgxyd@gmail.com" }
 ]
@@ -13,16 +13,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.8"
 keywords = ["discord", "discord-api"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Operating System :: OS Independent",
-    "Topic :: Communications :: Chat",
-]
+
 dependencies = [
     "requests>=2.28.0"
 ]
